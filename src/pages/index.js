@@ -39,12 +39,12 @@ const IndexPage = () => {
       {/* Message Container */}
       <div className={styles.messageContainer}>
         <p>
-          This is a demonstration of the Sydney theme for verse by{' '}
-          <span className={styles.gold}>matter design.</span>
+          A Beauty Store with all you need right located at{' '}
+          <span className={styles.gold}>Nairobi, Kenya.</span>
         </p>
         <p>
-          wear by <span className={styles.gold}>sunspel</span> and{' '}
-          <span className={styles.gold}>scotch&soda</span>
+          Product proudly prestented by{' '}
+          <span className={styles.gold}>Mark's Beauty Store.</span>
         </p>
       </div>
 
