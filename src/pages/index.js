@@ -100,7 +100,7 @@ const IndexPage = () => {
         bgColor={'var(--standard-light-grey)'}
         title={'about Sydney'}
         quote={
-          '“We believe in two things: the pursuit of quality in everything we do, and looking after one another. Everything else should take care of itself.”'
+          '“We believe in the pursuit of quality in everything we do.”'
         }
       />
 
