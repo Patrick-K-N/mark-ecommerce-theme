@@ -44,7 +44,7 @@ const IndexPage = () => {
         </p>
         <p>
           Product proudly prestented by{' '}
-          <span className={styles.gold}>Mark's Beauty Store.</span>
+          <span className={styles.gold}>Marks Beauty Store.</span>
         </p>
       </div>
 
@@ -78,7 +78,7 @@ const IndexPage = () => {
             altImage={'highlight image'}
             miniImage={'/highlightmin.png'}
             miniImageAlt={'mini highlight image'}
-            title={'Luxury Knitwear'}
+            title={'Salon Equipments'}
             description={`This soft lambswool jumper is knitted in Scotland, using yarn from one of the world's oldest spinners based in Fife`}
             textLink={'shop now'}
             link={'/shop'}
@@ -98,7 +98,7 @@ const IndexPage = () => {
       {/* Quote */}
       <Quote
         bgColor={'var(--standard-light-grey)'}
-        title={'about Sydney'}
+        title={'about Marks Beauty Store'}
         quote={
           '“We believe in the pursuit of quality in everything we do.”'
         }
