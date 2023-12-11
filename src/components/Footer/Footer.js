@@ -71,7 +71,7 @@ const Footer = (prop) => {
               <div className={styles.newsLetterContent}>
                 <span className={styles.linkTitle}>Newsletter</span>
                 <p className={styles.promoMessage}>
-                  Get 15% off your first purchase! Plus, be the first to know
+                  Get discounts on your first purchase! Plus, be the first to know
                   about sales, new product launches and exclusive offers!
                 </p>
                 <form
@@ -171,8 +171,8 @@ const Footer = (prop) => {
                 <Button target={true} href="https://www.matterdesign.com.au/">
                   Matter.
                 </Button>{' '}
-                Powered by{' '}
-                <Button target={true} href="https://jamm.matter.design/">
+                Powered by{' WebX '}
+                <Button target={true} href="webxcorporation.wordpress.com/">
                   JAMM.™
                 </Button>
               </span>
