@@ -31,15 +31,15 @@ const Contact = (props) => {
         <h4>Send Us A Message</h4>
         <p>
           Our Customer Service team are here for all enquiries Monday to Friday,
-          9am - 5pm AEDT (Australian Eastern Daylight Savings Time).
+          8am - 6pm EAT (EASTERN AFRICA TIME).
         </p>
         <p>We look forward to hearing from you.</p>
       </div>
 
       <div className={styles.section}>
         <h4>Phone</h4>
-        <p>+1 424 280 4971</p>
-        <p>Monday to Friday - 9am - 5pm AEDT</p>
+        <p>+254 715 135 405</p>
+        <p>Monday to Friday - 8am - 6pm EAT</p>
       </div>
 
       <div className={styles.section}>
