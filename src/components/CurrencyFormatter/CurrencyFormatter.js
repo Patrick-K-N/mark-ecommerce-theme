@@ -4,12 +4,12 @@ import { isNumeric } from '../../helpers/general';
 
 const CurrencyFormatter = ({
   amount,
-  currency = 'USD',
+  currency = 'KES',
   appendZero = false,
   useDollar = false,
 }) => {
   let displayAmount =
-    (typeof amount !== 'number' && parseFloat(amount?.replace('$', ''))) ||
+    (typeof amount !== 'number' && parseFloat(amount?.replace('KSh', ''))) ||
     amount;
   /* Set language display */
   const languageCode =
@@ -23,7 +23,7 @@ const CurrencyFormatter = ({
     style: 'currency',
     currency,
   });
-  let symbol = '$';
+  let symbol = 'KSh';
   let formattedPrice = formatObject.format(displayAmount);
   if ('formatToParts' in formatObject) {
     const formattedPriceParts = formatObject.formatToParts(displayAmount);
