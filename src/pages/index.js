@@ -30,7 +30,7 @@ const IndexPage = () => {
       <Hero
         maxWidth={'500px'}
         image={'/banner1.png'}
-        title={'Mark's Beauty Store'}
+        title={'Marks Beauty Store'}
         subtitle={'Barber, Salon, Nails, and Spa Equipments'}
         ctaText={'shop now'}
         ctaAction={#}
@@ -39,8 +39,8 @@ const IndexPage = () => {
       {/* Message Container */}
       <div className={styles.messageContainer}>
         <p>
-          A Beauty Store with all you need right located at{' '}
-          <span className={styles.gold}>Nairobi, Kenya.</span>
+          All you need is right located at{' '}
+          <span className={styles.gold}>Kenda House, Nairobi.</span>
         </p>
         <p>
           Product proudly prestented by{' '}
