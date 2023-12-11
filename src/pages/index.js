@@ -33,7 +33,6 @@ const IndexPage = () => {
         title={'Marks Beauty Store'}
         subtitle={'Barber, Salon, Nails, and Spa Equipments'}
         ctaText={'shop now'}
-        ctaAction={#}
       />
 
       {/* Message Container */}
