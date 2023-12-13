@@ -1,13 +1,14 @@
 [build]
   command = "gatsby build"
-  functions = "netlify/functions"
+  functions = "
+/opt/build/repo/netlify/functions"
   publish = "public"
 
 [[plugins]]
-  package = "gatsby-plugin-netlify"
+  package = "netlify-plugin-gatsby"
 
 [[plugins]]
-  package = "cypress-plugin-netlify"
+  package = "netlify-plugin-cypress"
 
   [plugins.inputs.postBuild]
     enable = true
