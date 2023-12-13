@@ -11,7 +11,6 @@ import Container from '../components/Container';
 
 const SupportPage = (props) => {
   const subpages = [
-    { title: 'Returns', key: 'returns' },
     { title: 'Payments & Security', key: 'payments' },
     { title: 'Terms & Conditions', key: 'terms' },
     { title: 'Contact Us', key: 'contact' },
@@ -28,12 +27,6 @@ const SupportPage = (props) => {
         tempElement = <Contact />;
         break;
       case 'policy':
-        tempElement = <Policy />;
-        break;
-      case 'shipping':
-        tempElement = <Policy />;
-        break;
-      case 'returns':
         tempElement = <Policy />;
         break;
       case 'payments':
