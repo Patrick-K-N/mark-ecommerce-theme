@@ -48,17 +48,13 @@ const AboutPage = (props) => {
         <Container size={'large'} spacing={'min'}>
           <div className={styles.detailContainer} ref={historyRef}>
             <p>
-              Founded in 1860, Sydney is an innovative British brand with a
-              contemporary edge. We make timeless everyday luxury clothing.
+              Founded in 2001, Mark’s Beauty Shop is an innovative British brand with a
+              contemporary edge. We sell timeless everyday beauty products.
             </p>
             <br />
             <br />
             <p>
-              We created some of the world's first T-shirts and spent decades
-              perfecting the feel of the cotton. Today we are the only brand
-              that makes T-shirts in its own factory in the UK. And we do this
-              in the same factory we have occupied since 1937.
-            </p>
+              We sell good quality Equipments for your personal use and business.
           </div>
         </Container>
 
@@ -75,7 +71,7 @@ const AboutPage = (props) => {
               <ol>
                 <li>Be an ecowear</li>
                 <li>Sophisticated and not mass-produced</li>
-                <li>Only natural materials</li>
+                <li>Only the best materials</li>
               </ol>
               <img alt={'founder'} src={'/about2.png'}></img>
             </div>
